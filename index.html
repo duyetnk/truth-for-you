@@ -1,9 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My GitHub Page</title>
+  <title>Image Display Template</title>
+  <style>
+    body {
+      font-family: sans-serif; /* Added for basic styling */
+    }
+    .container {
+      text-align: center; /* Centers inline content like text and images */
+      max-width: 800px; /* Optional: limits width */
+      margin: 20px auto; /* Centers the container itself */
+      padding: 20px; /* Optional: adds spacing */
+      border: 1px solid #ccc; /* Optional: visual border */
+      border-radius: 8px; /* Optional: rounded corners */
+    }
+    img {
+      max-width: 100%; /* Makes images responsive */
+      height: auto; /* Maintains aspect ratio */
+      margin-top: 15px; /* Adds space above images */
+      margin-bottom: 15px; /* Adds space below images */
+      display: inline-block; /* Ensure images are treated as inline blocks for centering */
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <div class="container">
+    <h1>Truth for you</h1>
+    <p></p>
+
+    <!-- Make sure you have an 'images' folder next to this index.html -->
+    <!-- Replace image1.jpg and image2.png with your actual image filenames -->
+    <img src="images\anh-chan-tuong3.png" alt="Description for image 1">
+
+    <p>More centered text can go here.</p>
+  </div>
 </body>
 </html>
